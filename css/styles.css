@@ -1,3 +1,21 @@
 html {
     font-family: 'Manrope', sans-serif;
+    background-color: rgb(239, 239, 239);
+}
+
+header {
+    text-align: center;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 1em;
+    margin-bottom: 20px;
+    background-color: rgb(252, 252, 252);
 }
