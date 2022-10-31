@@ -7,6 +7,9 @@ header {
     text-align: center;
 }
 
+body {
+    text-align: center;
+}
 
 nav ul {
     margin: 0;
@@ -18,4 +21,9 @@ nav ul li {
     padding: 1em;
     margin-bottom: 20px;
     background-color: rgb(252, 252, 252);
+}
+
+img {
+    width: 90%;
+    margin: 0 auto;
 }
