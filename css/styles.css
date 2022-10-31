@@ -1,6 +1,7 @@
 html {
     font-family: 'Manrope', sans-serif;
-    background-color: rgb(250, 250, 250);
+    /*background-color: rgb(250, 250, 250);*/
+    background-color: grey;
     box-sizing: border-box;
 }
 
@@ -8,8 +9,17 @@ header {
     text-align: center;
 }
 
+header img {
+    width: 70%;
+}
+
+header p.main-bio {
+    margin: 1em;
+}
+
 body {
     text-align: center;
+    margin: 0;
 }
 
 nav ul {
@@ -23,9 +33,15 @@ h1 {
 
 nav ul li {
     list-style-type: none;
+    width: 85%;
+    margin: auto;
     padding: 10px;
     margin-bottom: 5px;
     background-color: rgb(255, 255, 255);
+}
+
+nav ul li:last-child {
+    margin-bottom: 40px;
 }
 
 nav ul li a {
@@ -40,6 +56,19 @@ img {
     margin: 0 auto;
 }
 
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+main h3#portfolio {
+    padding: 3.5em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
 section {
     background-color: rgb(255, 255, 255);
+    width: 100%;
 }
