@@ -70,10 +70,20 @@ main h2 {
     margin-top: 1.5em;
 }
 
-main h3#portfolio {
+#portfolio {
     padding: 3.5em;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
     font-size: .8rem;
+}
+
+section:last-child h2 {
+    padding: 60px 40px 20px;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+section.calculator {
+    margin-bottom: 70px;
 }
