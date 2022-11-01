@@ -6,7 +6,7 @@ html {
 
 body,
 section:last-child {
-    background-color: grey;
+    background-color: rgb(248, 248, 248);
 }
 
 header {
@@ -17,8 +17,9 @@ header img {
     width: 70%;
 }
 
-header p.main-bio {
+p {
     margin: 1em;
+    font-size: .9rem;
 }
 
 body {
@@ -64,15 +65,14 @@ main {
     background-color: rgb(255, 255, 255);
 }
 
+main h2 {
+    font-size: 1.1rem;
+}
+
 main h3#portfolio {
     padding: 3.5em;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
     font-size: .8rem;
-}
-
-section {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
 }
