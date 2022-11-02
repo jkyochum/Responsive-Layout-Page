@@ -78,6 +78,10 @@ main h2 {
     font-size: .8rem;
 }
 
+section:last-child {
+    margin-bottom: 85px;
+}
+
 section:last-child h2 {
     padding: 60px 40px 20px;
     text-transform: uppercase;
@@ -86,6 +90,12 @@ section:last-child h2 {
 
 section.calculator {
     margin-bottom: 70px;
+}
+
+footer {
+    border-top: 2px solid lightgrey;
+    width: 90%;
+    margin: auto;
 }
 
 #name-footer {
