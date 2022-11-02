@@ -87,3 +87,20 @@ section:last-child h2 {
 section.calculator {
     margin-bottom: 70px;
 }
+
+
+#name-footer {
+    padding: 1rem 1rem 1.8rem 0;
+    margin-right: 30px;
+}
+
+footer p {
+    margin: 0;
+    padding: 1rem 0 1.8rem 1rem;
+}
+
+
+#name-footer,
+footer p {
+    display: inline;
+}
