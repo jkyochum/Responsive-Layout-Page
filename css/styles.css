@@ -114,7 +114,7 @@ section:last-child p a {
 
 footer {
     display: flex;
-    border-top: 2px solid lightgrey;
+    border-top: 1px solid lightgrey;
     width: 90%;
     margin: auto;
     justify-content: space-between;
