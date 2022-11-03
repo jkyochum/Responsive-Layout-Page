@@ -33,20 +33,23 @@ p {
 }
 
 nav {
-    text-align: center;
+    /* text-align: center; */
+    /* width: 90%; */
+    /* margin: auto; */
 }
 
 nav ul {
     margin: 0 auto;
     padding: 0;
-    width: 85%;
+    /* width: 265px; */
 }
 
 
 nav ul li {
     list-style-type: none;
-    width: 100%;
-    padding: 10px;
+    width: 265px;
+    /* padding: 10px; */
+    margin: auto;
     margin-bottom: 5px;
     background-color: rgb(255, 255, 255);
 }
@@ -56,6 +59,10 @@ nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     font-size: .9em;
+    /* text-align: center; */
+    width: 245px;
+    padding: 10px;
+    display: inline-block;
 }
 
 nav ul li:last-child {
