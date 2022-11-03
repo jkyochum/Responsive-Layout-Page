@@ -97,6 +97,7 @@ footer {
     border-top: 2px solid lightgrey;
     width: 90%;
     margin: auto;
+    justify-content: space-between;
 }
 
 #name-footer {
