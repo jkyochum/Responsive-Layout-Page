@@ -155,3 +155,11 @@ footer p,
 #name-footer {
     padding: 25px 0;
 }
+
+/*     TABLET MEDIA QUERY     */
+
+@media screen and (min-width: 768px) {}
+
+/*     DESKTOP MEDIA QUERY     */
+
+@media screen and (min-width: 1024px) {}
