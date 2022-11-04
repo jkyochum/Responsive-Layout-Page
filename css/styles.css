@@ -158,7 +158,21 @@ footer p,
 
 /*     TABLET MEDIA QUERY     */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    h1 {
+        margin-top: 40px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li:last-child {
+        margin: 0;
+    }
+
+}
 
 /*     DESKTOP MEDIA QUERY     */
 
