@@ -209,6 +209,11 @@ footer p,
         margin: 18px;
         width: 55%;
         text-align: left;
+
+    }
+
+    header p,
+    section:last-child p {
         font-size: 1.15rem;
     }
 
@@ -220,6 +225,16 @@ footer p,
 
     section {
         width: 49%;
+    }
+
+    section.calculator {
+        margin-bottom: 0;
+    }
+
+    section:last-child {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 30px;
     }
 
 }
