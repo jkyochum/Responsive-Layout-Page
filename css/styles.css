@@ -161,6 +161,12 @@ footer p,
     padding: 25px 0;
 }
 
+#home-footer,
+#portfolio-footer,
+#contact-footer {
+    display: none;
+}
+
 /*     TABLET MEDIA QUERY     */
 
 @media screen and (min-width: 768px) {
@@ -239,6 +245,25 @@ footer p,
 
     section:last-child h2 {
         margin-top: 0;
+    }
+
+    footer {
+        padding-bottom: 50px;
+        justify-content: right;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    #name-footer {
+        align-self: flex-start;
+    }
+
+    #home-footer,
+    #portfolio-footer,
+    #contact-footer {
+        display: inline-block;
     }
 }
 
