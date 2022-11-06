@@ -100,6 +100,7 @@ section {
 
 section.calculator {
     margin-bottom: 70px;
+
 }
 
 section:last-child {
@@ -209,6 +210,16 @@ footer p,
         width: 55%;
         text-align: left;
         font-size: 1.15rem;
+    }
+
+    .main-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section {
+        width: 49%;
     }
 
 }
