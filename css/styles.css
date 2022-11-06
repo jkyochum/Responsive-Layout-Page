@@ -168,9 +168,14 @@ footer p,
         margin-top: 40px;
     }
 
+    nav {
+        margin-bottom: 50px;
+    }
+
     nav ul {
         display: flex;
         justify-content: center;
+        gap: 2px;
     }
 
     nav ul li {
@@ -186,8 +191,25 @@ footer p,
 
     nav ul li a {
         font-size: 1rem;
-        width: 0;
-        display: block;
+        width: 130px;
+    }
+
+    header {
+        padding-bottom: 90px;
+    }
+
+    header img {
+        width: 40%;
+        max-width: 700px;
+        margin: 0 20px;
+        float: right;
+    }
+
+    header p {
+        margin: 18px;
+        width: 52%;
+        text-align: left;
+        font-size: 1.15rem;
     }
 
 }
