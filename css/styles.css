@@ -199,15 +199,14 @@ footer p,
     }
 
     header img {
-        width: 40%;
-        max-width: 700px;
+        width: 35%;
         margin: 0 20px;
         float: right;
     }
 
     header p {
         margin: 18px;
-        width: 52%;
+        width: 55%;
         text-align: left;
         font-size: 1.15rem;
     }
