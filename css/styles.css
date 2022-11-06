@@ -1,5 +1,5 @@
 * {
-    border: 1px solid lightgreen;
+    /* border: 1px solid lightgreen; */
 }
 
 html {
@@ -182,7 +182,6 @@ footer p,
     nav ul {
         display: flex;
         justify-content: center;
-        gap: 2px;
     }
 
     nav ul li {
@@ -249,15 +248,15 @@ footer p,
 
     footer {
         padding-bottom: 50px;
-        justify-content: right;
+    }
+
+    .flex-footer {
+        display: flex;
+        gap: 25px;
     }
 
     footer p {
         display: none;
-    }
-
-    #name-footer {
-        align-self: flex-start;
     }
 
     #home-footer,
