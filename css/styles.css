@@ -29,6 +29,7 @@ h1 {
 
 header img {
     width: 70%;
+    max-width: 350px;
 }
 
 p {
@@ -275,6 +276,16 @@ footer p,
 @media screen and (min-width: 1024px) {
 
     header {
+        margin-bottom: 135px;
+    }
+
+    .header-wrapper {
         display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .header-wrapper h1 {
+        margin: 0;
     }
 }
