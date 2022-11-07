@@ -246,6 +246,10 @@ footer p,
         margin-top: 0;
     }
 
+    section:last-child p {
+        margin: 1em 4.5em 1.5em;
+    }
+
     footer {
         padding-bottom: 50px;
     }
@@ -268,4 +272,9 @@ footer p,
 
 /*     DESKTOP MEDIA QUERY     */
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+
+    header {
+        display: flex;
+    }
+}
