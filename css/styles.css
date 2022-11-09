@@ -105,11 +105,10 @@ section.calculator {
 }
 
 section:last-child {
-    margin-bottom: 75px;
+    padding-bottom: 75px;
 }
 
-section.calculator,
-section:last-child {
+section.calculator {
     padding-bottom: 0;
 }
 
@@ -201,21 +200,12 @@ footer p,
         width: 130px;
     }
 
-    header {
-        padding-bottom: 90px;
+    .bio-wrapper {
+        display: flex;
     }
 
-    header img {
-        width: 40%;
-        margin: 0 20px;
-        float: right;
-    }
-
-    header p {
-        margin: 18px;
-        width: 55%;
-        text-align: left;
-
+    .bio-wrapper p {
+        margin: 0;
     }
 
     header p,
