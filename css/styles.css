@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid lightgreen; */
+    border: 1px solid lightgreen;
 }
 
 html {
@@ -279,15 +279,29 @@ footer p,
         margin-bottom: 135px;
     }
 
+    nav ul {
+        margin-right: -38px;
+    }
+
     .header-wrapper {
         display: flex;
         justify-content: space-between;
         margin: auto;
         margin-top: 50px;
-        width: 85%;
+        width: 90%;
     }
 
     .header-wrapper h1 {
         margin: 0;
+    }
+
+    .bio-wrapper {
+        width: 90%;
+        gap: 47px;
+    }
+
+    section {
+        width: 33%;
+        padding-bottom: 30px;
     }
 }
