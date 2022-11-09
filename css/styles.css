@@ -157,6 +157,10 @@ footer p a:active {
     color: black;
 }
 
+footer p a:hover {
+    border-bottom: 1px solid black;
+}
+
 footer p,
 #name-footer {
     padding: 25px 0;
@@ -164,6 +168,7 @@ footer p,
 
 #home-footer,
 #portfolio-footer,
+#skills-footer,
 #contact-footer {
     display: none;
 }
@@ -280,6 +285,7 @@ footer p,
 
     #home-footer,
     #portfolio-footer,
+    #skills-footer,
     #contact-footer {
         display: inline-block;
     }
