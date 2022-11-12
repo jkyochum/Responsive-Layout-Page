@@ -27,6 +27,8 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(53, 23, 99);
+    padding: 0.7em 0;
+    margin: 0;
 }
 
 p {
@@ -44,17 +46,22 @@ nav ul li {
     list-style-type: none;
     margin-bottom: 5px;
     background-color: rgb(255, 255, 255);
+    border-radius: 2px;
 }
 
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: .9em;
     width: 100%;
     padding: 10px;
     display: inline-block;
     color: black;
+}
+
+nav ul li a,
+#portfolio {
+    font-size: 1.1em;
 }
 
 nav ul li:active {
@@ -65,12 +72,17 @@ nav ul li a:active {
     color: rgb(193, 193, 193);
 }
 
+nav ul li a:hover {
+    background-color: rgb(226, 255, 245);
+    transition: 1s;
+}
+
 nav ul li:last-child {
     margin-bottom: 40px;
 }
 
 header img {
-    width: 300px;
+    width: 235px;
 }
 
 img {
@@ -92,7 +104,6 @@ main h2 {
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: .9rem;
 }
 
 section {
