@@ -31,9 +31,10 @@ h1 {
     margin: 0;
 }
 
-p {
-    margin: 1em 1.5em 1.5em;
-    font-size: .95rem;
+header p {
+    margin: 1.5em;
+    font-size: 1.16rem;
+    color: gray;
 }
 
 nav ul {
@@ -77,8 +78,8 @@ nav ul li a:hover {
     transition: 1s;
 }
 
-nav ul li:last-child {
-    margin-bottom: 40px;
+.header-wrapper {
+    margin-bottom: 50px;
 }
 
 header img {
@@ -100,7 +101,7 @@ main h2 {
 }
 
 #portfolio {
-    padding: 3.5em;
+    padding: 3em;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
