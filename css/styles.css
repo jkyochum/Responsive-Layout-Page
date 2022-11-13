@@ -33,7 +33,7 @@ h1 {
 
 header p {
     margin: 1.5em;
-    font-size: 1.16rem;
+    font-size: 1.2rem;
     color: gray;
 }
 
@@ -109,6 +109,17 @@ main h2 {
 
 section {
     padding-bottom: 15px;
+}
+
+section p {
+    width: 95%;
+    margin: auto;
+    font-size: 1.135em;
+}
+
+main h2,
+section p {
+    color: rgb(80, 80, 80);
 }
 
 section.calculator {
