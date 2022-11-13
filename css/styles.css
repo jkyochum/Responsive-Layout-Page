@@ -134,7 +134,7 @@ section p {
     color: rgb(80, 80, 80);
 }
 
-section.calculator {
+.calculator {
     margin-bottom: 70px;
     padding-bottom: 0;
 }
@@ -331,7 +331,7 @@ footer p,
         margin-bottom: 0;
     }
 
-    section.skills article {
+    #skills article {
         width: 49%;
     }
 
@@ -343,10 +343,6 @@ footer p,
 
     section:last-child h2 {
         margin-top: 0;
-    }
-
-    section:last-child p {
-        margin: 1em 4.5em 1.5em;
     }
 
     footer {
