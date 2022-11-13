@@ -203,10 +203,20 @@ section.calculator {
     margin-bottom: 15px;
 }
 
+#contact p:nth-of-type(1) {
+    padding-bottom: 18px;
+}
+
 #contact p a {
     margin-left: 10px;
     text-decoration: none;
     font-weight: bold;
+}
+
+#contact p,
+.phone-number,
+.email {
+    font-size: 1rem;
 }
 
 footer {
