@@ -60,10 +60,7 @@ nav ul li a {
     color: black;
 }
 
-nav ul li a,
-#portfolio {
-    font-size: 1.1em;
-}
+
 
 nav ul li:active {
     background-color: rgb(82, 82, 82);
@@ -108,13 +105,13 @@ main h2 {
 }
 
 section {
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 }
 
 section p {
-    width: 95%;
+    width: 83%;
     margin: auto;
-    font-size: 1.135em;
+    font-size: 1.1em;
 }
 
 main h2,
