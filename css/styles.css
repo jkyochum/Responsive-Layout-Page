@@ -305,7 +305,6 @@ footer p,
     .bio-wrapper img {
         order: 2;
         width: 45%;
-        min-width: 350px;
     }
 
     header p,
