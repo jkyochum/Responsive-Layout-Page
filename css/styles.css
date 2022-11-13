@@ -32,8 +32,7 @@ h1 {
 }
 
 header p {
-    margin: 1.5em;
-    font-size: 1.2rem;
+    margin: 1.5em 1.2em;
     color: gray;
 }
 
@@ -59,8 +58,6 @@ nav ul li a {
     display: inline-block;
     color: black;
 }
-
-
 
 nav ul li:active {
     background-color: rgb(82, 82, 82);
@@ -93,7 +90,7 @@ main {
 }
 
 main h2 {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     margin-top: 1.5em;
 }
 
@@ -102,6 +99,7 @@ main h2 {
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 section {
@@ -109,9 +107,9 @@ section {
 }
 
 section p {
-    width: 83%;
+    width: 88%;
     margin: auto;
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
 main h2,
