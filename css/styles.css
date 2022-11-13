@@ -63,6 +63,7 @@ nav ul li a {
     padding: 10px;
     display: inline-block;
     color: black;
+    border-radius: 4px;
 }
 
 nav ul li:active {
@@ -289,6 +290,12 @@ footer p,
         width: 130px;
     }
 
+    nav ul li a:hover {
+        background-color: #34252F;
+        color: #fff;
+        transition: 1s;
+    }
+
     .bio-wrapper {
         display: flex;
         width: 92%;
@@ -327,12 +334,12 @@ footer p,
         width: 49%;
     }
 
-    section.calculator {
+    .calculator {
         margin-bottom: 0;
     }
 
-    #skills article {
-        width: 49%;
+    #skills {
+        width: 100%;
     }
 
     section:last-child {
