@@ -310,7 +310,7 @@ footer p,
     }
 
     header p,
-    section:last-child p {
+    #contact p {
         font-size: 1.15rem;
     }
 
