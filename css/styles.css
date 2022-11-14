@@ -151,15 +151,16 @@ section p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     width: 95%;
     margin: auto;
     padding-bottom: 15px;
 }
 
 .skills-wrapper p {
-    width: 140px;
+    width: 130px;
     height: 100%;
-    margin: 1.25rem auto;
+    margin: 1.25rem 10px;
     border-radius: 50px;
     padding: 10px;
     font-weight: bold;
