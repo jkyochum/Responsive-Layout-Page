@@ -275,7 +275,7 @@ footer p,
 
     nav ul li {
         background-color: rgb(248, 248, 248);
-        width: 150px;
+
     }
 
     nav ul li,
@@ -389,6 +389,11 @@ footer p,
 
     .header-wrapper h1 {
         margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a {
+        width: 110px;
     }
 
     .bio-wrapper {
