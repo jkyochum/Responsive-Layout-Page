@@ -156,11 +156,11 @@ section p {
     margin: 0;
 }
 
-#skills article {
+#skills section {
     padding-bottom: 15px;
 }
 
-#skills article p {
+#skills section p {
     width: 140px;
     height: 100%;
     margin: 1.25rem auto;
@@ -169,23 +169,23 @@ section p {
     font-weight: bold;
 }
 
-#skills article p:nth-child(1) {
+#skills section p:nth-child(1) {
     background-color: #B1DDF1;
 }
 
-#skills article p:nth-child(2) {
+#skills section p:nth-child(2) {
     background-color: #FAB3A9;
 }
 
-#skills article p:nth-child(3) {
+#skills section p:nth-child(3) {
     background-color: #BABABA;
 }
 
-#skills article p:nth-child(4) {
+#skills section p:nth-child(4) {
     background-color: #FFF689;
 }
 
-#skills article p:nth-child(5) {
+#skills section p:nth-child(5) {
     background-color: #CFFFB0;
 }
 
