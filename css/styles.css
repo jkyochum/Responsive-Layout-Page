@@ -143,20 +143,17 @@ section p {
     background-color: rgb(248, 248, 248);
 }
 
-.skills-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 95%;
-    margin: auto;
-}
-
 #skills h3 {
     padding: 3em 1.5em 1.5em;
     margin: 0;
 }
 
 .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 95%;
+    margin: auto;
     padding-bottom: 15px;
 }
 
@@ -340,14 +337,10 @@ footer p,
         width: 100%;
     }
 
-    section:last-child {
+    #contact {
         width: 100%;
         margin: 0;
         padding-bottom: 30px;
-    }
-
-    section:last-child h2 {
-        margin-top: 0;
     }
 
     footer {
