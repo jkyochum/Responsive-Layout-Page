@@ -147,6 +147,8 @@ section p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    width: 95%;
+    margin: auto;
 }
 
 #skills h3 {
